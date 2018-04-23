@@ -37,3 +37,4 @@ The output format will specify inference and also the reason behind the inferenc
     Conflict :	A>-F
     ------------------------------------------------------------
    
+NOTE : Remember to change the file directory on line 14.
