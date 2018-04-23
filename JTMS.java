@@ -3,16 +3,12 @@
 //
 //
 //  Created by Gauraang Khurana on 4/12/18.
-//
-//
 
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.*;
 import java.io.*;
 
 public class JTMS {
-	
 	
 	//Please change file path here before proceeding.
 	static final String filePath = "/Users/Isha/eclipse-workspace/Assign4/src/TMS.txt";  
@@ -22,9 +18,6 @@ public class JTMS {
 	public List<String> dependencyTable = new ArrayList<String>();
 	public List<String> knownTable = new ArrayList<String>();
 	public List<String> tellTableCopy = new ArrayList<String>();
-
-	
-	
 	
 	//Function to read file and store in 
 	public List<String> readFile() throws IOException{
@@ -531,12 +524,4 @@ public class JTMS {
 		}			
 							
 	}
-	
-	
-	/*Cases to cover tomorrow : 
-	1. While we add, update table even when multi length instructions are sent. Right now checking only for one character tell statement.
-	2. Debug to fix multiple additions, since we run for loop again and check every time. 
-	3. Cover Contradiction. Check if negated literal already present in tables.
-	4. Finish Retract Statements. 
-	*/
 }
