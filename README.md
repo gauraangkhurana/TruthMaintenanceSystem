@@ -4,14 +4,15 @@
 This is a justification based truth maintenance system.
 
 You can input various truth statements in the format:-
-    Tell: A>B
-    Tell: C>D
-    Tell: A
-    Tell: (C*B)>E
-    Tell: (E+D)>F
-    Tell: C
-    Tell: A>-F
-    Retract: C
+
+        Tell: A>B
+        Tell: C>D
+        Tell: A
+        Tell: (C*B)>E
+        Tell: (E+D)>F
+        Tell: C
+        Tell: A>-F
+        Retract: C
     
 The program will maintain and print the inference derived from the statements. This is known as a Truth Maintenance System.
 It will also provide justification of the derived inference, therefore it is of type - justification based system.
